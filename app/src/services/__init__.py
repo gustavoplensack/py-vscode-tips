@@ -1,1 +1,1 @@
-from .sum_service import SumService
+from src.services.sum_service import SumService

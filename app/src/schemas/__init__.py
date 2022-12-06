@@ -1,1 +1,1 @@
-from .sum_request import SumRequest
+from src.schemas.sum_request import SumRequest
