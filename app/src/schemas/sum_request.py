@@ -6,6 +6,4 @@ class SumRequest(BaseModel):
 
     x: int
 
-    y:int
-
-    
+    y: int
