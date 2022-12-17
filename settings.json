@@ -1,0 +1,50 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "workbench.activityBar.visible": true,
+  "explorer.confirmDelete": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "git.suggestSmartCommit": false,
+  "update.mode": "manual",
+
+  //python stuff
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "autopep8",
+  "python.linting.enabled": true,
+  "python.linting.flake8CategorySeverity.E": "Information",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintUseMinimalCheckers": false,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.workspaceSymbols.exclusionPatterns": [
+    "**/__pycache__/**",
+    "**/documents/**",
+    "**/node_modules/**",
+    "**/site-packages/**"
+  ],
+  "python.linting.lintOnSave": true,
+  "python.autoComplete.extraPaths": ["./", "./src/", "./app/src"],
+
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.rulers": [80]
+  },
+
+  "jupyter.askForKernelRestart": false,
+  "jupyter.sendSelectionToInteractiveWindow": false,
+  "jupyter.alwaysTrustNotebooks": true,
+  "python.analysis.extraPaths": ["./app/src/", "./", "**/src/**"],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  }
+}
