@@ -3,6 +3,7 @@
 import json
 
 from flask import Flask, request
+
 from src.schemas import SumRequest
 from src.services import SumService
 
